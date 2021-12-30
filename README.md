@@ -1,6 +1,8 @@
 # QT5-GRANSAC
 Multi threaded generic RANSAC implementation and visualized using QT5.
 
+
+
 ## RANSAC
 
 ### Definition
@@ -13,12 +15,14 @@ If the result still below or in the treshold, a point counted as inliers.
 After several itterations, it will return the line that represent the most points / the most inliers
 
 
+
 ## QT5-GUI
 ![Alt text](https://github.com/mich1342/QT5-GRANSAC/blob/main/ScreeenShoots.png?raw=true "Screenshoots of the gui")
 
 Settings the parameter first and then press the execute button to simulate the RANSAC algorithm.
 
 At the left part of the image, the raw data set is shown. At the right part of the image, the iliers are marked with green color and the estimated line marked with red line.
+
 
 
 ## Settings Parameter
@@ -35,6 +39,8 @@ Maximum number of iterration for the RANSAC algorithm.
 ### 4. Pertubation
 Describing how distributed the data.
 
+
+
 ## Credits and Contribution
 ### 1. The algorithm was addopted from drsrinathsridhar's [GRANSAC](https://github.com/drsrinathsridhar/GRANSAC) repo.
 - Convert cmake into qmake.
@@ -47,6 +53,8 @@ Describing how distributed the data.
 - Adopt the basic GUI template.
 
 - Add additional widgets to set the parameters.
+
+
 
 ## Dependencies and System Requirement
 - C++ 11 (tested using GCC 9.3.0)
